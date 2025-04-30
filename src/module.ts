@@ -1,4 +1,4 @@
-import { addPlugin, addServerPlugin, addServerTemplate, addTemplate, createResolver, defineNuxtModule } from '@nuxt/kit'
+import { addServerPlugin, addTemplate, createResolver, defineNuxtModule } from '@nuxt/kit'
 
 // Module options TypeScript interface definition
 export interface ModuleOptions {}
@@ -27,5 +27,5 @@ export default defineNuxtModule<ModuleOptions>({
     })
 
     addServerPlugin(resolver.resolve('nitro-plugin.ts'))
-  }
+  },
 })

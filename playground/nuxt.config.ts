@@ -1,7 +1,7 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-04-30',
 
- // buildDir: './.nuxt',
+  // buildDir: './.nuxt',
 
   future: {
     compatibilityVersion: 4,
